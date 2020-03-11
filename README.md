@@ -28,7 +28,7 @@ It is possible to use Reveal.js to create a presentation within a GUI by using [
 
 3. Open single-presentation-example-presentation.php file in a text editor.
 
-   You can configure your presentation with the 'shcp_custom_config' filter, change the Reveal.js theme with the 'shcp_theme' filter, and code your slides with the 'shcp_slides' action. For further explanation on how to configure your presentation and create your slides, follow the documentation on the [Reveal.js GitHub repository](https://github.com/hakimel/reveal.js).
+   You can configure your presentation with the `shcp_custom_config` filter, change the Reveal.js theme with the `shcp_theme` filter, and code your slides with the `shcp_slides` action. For further explanation on how to configure your presentation and create your slides, follow the documentation on the [Reveal.js GitHub repository](https://github.com/hakimel/reveal.js).
 
 4. Add custom styles to your presentation with CSS.
 

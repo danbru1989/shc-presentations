@@ -1,0 +1,21 @@
+.presentations-instructions {
+  background: white;
+  max-width: 800px;
+  padding: 15px 30px 30px !important;
+  margin: 0 auto 60px !important;
+  border: 1px solid #bebebe !important; }
+  .presentations-instructions label {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bebebe; }
+  .presentations-instructions .instructions-wrap {
+    padding: 0 15px !important; }
+    .presentations-instructions .instructions-wrap .buttons-wrap {
+      display: flex;
+      justify-content: space-around;
+      max-width: 400px;
+      margin: 30px auto 0; }
+
+.reset-the-display .choices-list,
+.reset-the-display .values-list {
+  min-height: 400px; }

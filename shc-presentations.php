@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: SHC Presentations
- * Description: A WordPress plugin from Servant's Heart Camp for displaying dynamic presentations on a screen using Reveal.js.
+ * Description: A WordPress plugin from Servant's Heart Camp for displaying dynamic presentations using Reveal.js.
  *
  * Version:     1.0.0
  *

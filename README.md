@@ -34,5 +34,16 @@ It is possible to use Reveal.js to create a presentation within a GUI by using [
 
    If you want to add some custom CSS to your presentation, [enqueue your CSS file](https://developer.wordpress.org/reference/hooks/wp_enqueue_scripts/) in your presentation template file (single-presentation-example-presentation.php) just as you would when building a custom WordPress theme. Be sure to add a priority of 999 to your enqueue hook to ensure that your custom styles do not get removed when SHC Presentations removes all other scripts and styles.
 
+# Build-in Actions & Filters
+
+## shcp_custom_config
+Filter hook to modify the Reveal.js configuration in your presentation.
+
+## shcp_theme
+Filter hook to change the Reveal.js theme.
+
+## shcp_slides
+Action hook to add slides to your presentation.
+
 # Change Log
 1.0.0 – Ititial launch.

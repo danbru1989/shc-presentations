@@ -171,8 +171,11 @@ function shcp_default_slides() {
 add_filter(
 	'show_admin_bar',
 	function() {
+
 		if ( is_singular( 'presentation' ) ) {
 			return false;
 		}
+
+		return true;
 	}
 );

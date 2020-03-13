@@ -3,7 +3,7 @@
  * Plugin Name: SHC Presentations
  * Description: A WordPress plugin from Servant's Heart Camp for displaying dynamic presentations using Reveal.js.
  *
- * Version:     1.0.0
+ * Version:     1.1.0
  *
  * Author:      Dan Brubaker
  * Author URI:  https://brubakerservices.org/
@@ -16,7 +16,7 @@
 // Initialize Constants.
 define( 'SHCP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'SHCP_PLUGIN_TEXT_DOMAIN', 'shc-presentations' );
-define( 'SHCP_PLUGIN_VERSION', '1.0.0' );
+define( 'SHCP_PLUGIN_VERSION', '1.1.0' );
 
 require_once __DIR__ . '/includes/load-includes.php';
 require_once __DIR__ . '/includes/load-assets.php';

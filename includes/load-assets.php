@@ -67,6 +67,9 @@ add_action(
 				array(),
 				SHCP_PLUGIN_VERSION
 			);
+
+			// Enqueue Font Awesome.
+			wp_enqueue_style( SHCP_PLUGIN_TEXT_DOMAIN . 'font-awesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css', array(), SHCP_PLUGIN_VERSION );
 		}
 	},
 	200

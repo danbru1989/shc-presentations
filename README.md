@@ -46,4 +46,6 @@ Filter hook to change the Reveal.js theme.
 Action hook to add slides to your presentation.
 
 # Change Log
+1.1.0 – Enqueued Font Awesome by default.
+
 1.0.0 – Ititial launch.

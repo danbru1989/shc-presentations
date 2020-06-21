@@ -172,10 +172,10 @@ add_filter(
 	'show_admin_bar',
 	function() {
 
-		if ( is_singular( 'presentation' ) ) {
-			return false;
+		if ( is_user_logged_in() && ! is_singular( 'presentation' ) ) {
+			return true;
 		}
 
-		return true;
+		return false;
 	}
 );

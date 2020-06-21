@@ -41,7 +41,7 @@ add_action(
 
 			// Enqueue Reveal.js.
 			wp_enqueue_script(
-				SHCP_PLUGIN_TEXT_DOMAIN . '-reveal',
+				SHCP_PLUGIN_TEXT_DOMAIN . '-shcp-reveal',
 				SHCP_PLUGIN_URL . 'assets/js/reveal.js',
 				array(),
 				SHCP_PLUGIN_VERSION,
@@ -50,7 +50,7 @@ add_action(
 
 			// Enqueue Reveal Styles.
 			wp_enqueue_style(
-				SHCP_PLUGIN_TEXT_DOMAIN . '-reveal',
+				SHCP_PLUGIN_TEXT_DOMAIN . '-shcp-reveal',
 				SHCP_PLUGIN_URL . 'assets/css/reveal.css',
 				array(),
 				SHCP_PLUGIN_VERSION
@@ -62,14 +62,20 @@ add_action(
 
 			// Enqueue Reveal Theme.
 			wp_enqueue_style(
-				SHCP_PLUGIN_TEXT_DOMAIN . '-reveal-theme',
+				SHCP_PLUGIN_TEXT_DOMAIN . '-shcp-reveal-theme',
 				SHCP_PLUGIN_URL . 'assets/css/themes/' . $theme . '.css',
 				array(),
 				SHCP_PLUGIN_VERSION
 			);
 
 			// Enqueue Font Awesome.
-			wp_enqueue_style( SHCP_PLUGIN_TEXT_DOMAIN . 'font-awesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css', array(), SHCP_PLUGIN_VERSION );
+			wp_enqueue_script(
+				SHCP_PLUGIN_TEXT_DOMAIN . 'font-awesome',
+				'https://kit.fontawesome.com/7c37585a60.js',
+				array(),
+				SHCP_PLUGIN_VERSION,
+				false,
+			);
 		}
 	},
 	200
